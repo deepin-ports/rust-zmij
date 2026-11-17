@@ -1,0 +1,3 @@
+overlay = "."
+uploaders = ["Alexander Kjäll <alexander.kjall@gmail.com>"]
+collapse_features = true # make upcoming default of debcargo explicit since this crate is currently not split

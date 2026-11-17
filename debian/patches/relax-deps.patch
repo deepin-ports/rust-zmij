@@ -1,0 +1,24 @@
+Index: zmij/Cargo.toml
+===================================================================
+--- zmij.orig/Cargo.toml	2026-10-16 23:36:56.039757112 -0400
++++ zmij/Cargo.toml	2026-10-17 02:03:51.269675207 -0400
+@@ -63,9 +63,9 @@
+ path = "benches/bench.rs"
+ harness = false
+ 
+-[dependencies.no-panic]
+-version = "0.1.36"
+-optional = true
++#[dependencies.no-panic]
++#version = "0.1.36"
++#optional = true
+ 
+ [dev-dependencies.num-bigint]
+ version = "0.5"
+@@ -86,5 +86,5 @@
+ version = "1"
+ 
+ [target."cfg(not(miri))".dev-dependencies.criterion]
+-version = "0.8"
++version = "0.5"
+ default-features = false

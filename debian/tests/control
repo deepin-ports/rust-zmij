@@ -1,0 +1,4 @@
+Test-Command: /usr/share/cargo/bin/cargo-auto-test zmij 1.0.23 --all-targets --all-features
+Features: test-name=rust-zmij:@
+Depends: dh-cargo (>= 33~), rustc (>= 1.71), librust-criterion-0.5-dev, librust-num-bigint-0.5+default-dev, librust-num-cpus-1+default-dev (>= 1.8), librust-num-integer-0.1+default-dev, librust-opt-level-1+default-dev, librust-rand-0.10+default-dev, librust-ryu-1+default-dev, @
+Restrictions: allow-stderr
